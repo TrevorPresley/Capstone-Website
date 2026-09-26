@@ -1,0 +1,29 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+}
+
+body { 
+    font-family: system-ui, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5; 
+    color: #1a1a1a;
+}
+h1, h2, h3 { line-height: 1.5; }
+p { max-width: 65ch; }
+
+body {
+    padding: 20px;
+}
+
+:root {
+  --brand: hsl(113, 73%, 42%);
+  --ink:   #1a1a1a;
+  --paper: hsla(206, 70%, 96%, 0.863);
+}
+
+a:hover, 
+a:focus { 
+  color: #1d6fb8; 
+}
