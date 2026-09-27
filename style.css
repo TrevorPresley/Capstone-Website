@@ -2,20 +2,15 @@
 
 body {
   margin: 0;
+  padding: 20px;
+  font-family: system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #1a1a1a;
 }
 
-body { 
-    font-family: system-ui, sans-serif;
-    font-size: 1rem;
-    line-height: 1.5; 
-    color: #1a1a1a;
-}
 h1, h2, h3 { line-height: 1.5; }
 p { max-width: 65ch; }
-
-body {
-    padding: 20px;
-}
 
 :root {
   --brand: hsl(113, 73%, 42%);
