@@ -22,3 +22,18 @@ a:hover,
 a:focus { 
   color: #1d6fb8; 
 }
+
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.site-nav ul { display: flex; gap: 40pxrem; list-style: none; margin: 0; }
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1rem;
+}
+.card { padding: 1rem; border: 1px solid #d9e2ec; border-radius: 8px; }
