@@ -58,7 +58,7 @@ a:focus {
   transition: var(--transition);
 }
 .site-nav a:hover {
-  color: var(--primary-color);
+  color: #ffffff;
   background-color: var(--secondary-color); /* Flips background color on hover */
   border-color: var(--secondary-color);
 }
