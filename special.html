@@ -21,7 +21,66 @@
         </nav>
     </header>
     <main>
-        <p>Welcome to our special offers page! Here you can view our latest deals and promotions.</p>
+        <section>
+            <h1>Special Orders Your Way</h1>
+            <p>Welcome to our special orders page! Here you can view our latest deals and promotions.</p>
+        </section>
+
+        <section>
+            <h2>Our Specialties</h2>
+            <ul>
+                <li>Custom Cakes</li>
+                <li>Seasonal Pastries</li>
+                <li>Holiday Specials</li>
+                <li>Gluten-Free Options</li>
+            </ul>
+                    <form action="https://httpbin.org" method="post" novalidate>
+            
+            <div class="form-group">
+                <label for="full-name">Order Specifications</label>
+                <input type="text">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Allergies</label>
+                <input type="text" id="allergies">
+            </div>
+
+                        <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required autocomplete="email" aria-describedby="email-hint">
+                <span id="email-hint" class="form-hint">Format: name@example.com</span>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Please enter a 10-digit phone number in the format: 123-456-7890" aria-describedby="phone-hint">
+                <span id="phone-hint" class="form-hint">Format: 123-456-7890</span>
+            </div>
+
+            <div class="form-group">
+                <label for="topic">Order Type</label>
+                <select id="topic" name="topic" required>
+                    <option value="" disabled selected>Select a topic...</option>
+                    <option value="general">Cake</option>
+                    <option value="support">Bread</option>
+                    <option value="billing">Other</option>
+                </select>
+            </div>
+
+            <fieldset>
+                <legend>Preferred Contact Method</legend>
+                <div class="radio-group">
+                    <input type="radio" id="pref-email" name="preferredContact" value="email" checked>
+                    <label for="pref-email">Email</label>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" id="pref-phone" name="preferredContact" value="phone">
+                    <label for="pref-phone">Phone</label>
+                </div>
+            </fieldset>
+
+            <button type="submit">Submit Message</button>
+        </form>
     </main>
 </body>
 </html>
