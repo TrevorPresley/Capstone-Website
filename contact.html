@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us | Capstone Project</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
 
@@ -68,8 +69,9 @@
             </fieldset>
 
             <div class="form-group">
-                <label for="message">Your Message</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
+                <label for="msg">Your Message</label>
+                <textarea id="msg" maxlength="200"></textarea>
+                <p><span id="count">0</span> / 200</p>
             </div>
 
             <button type="submit">Submit Message</button>
