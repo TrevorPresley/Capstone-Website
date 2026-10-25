@@ -1,3 +1,5 @@
+<script src="script.js" defer></script>
+
 function greet(name) {
     return `Welcome to Bread Crumb Bakery, ${name}!`
 }
