@@ -1,0 +1,1 @@
+All pages were changed to show their descriptive name and description.
